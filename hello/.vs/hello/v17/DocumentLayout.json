@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\hello\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\source\\repos\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\source\\repos\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\source\\repos\\hello\\hello\\hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "RelativeDocumentMoniker": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "RelativeToolTip": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-11T08:29:43.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uCEF4\uD30C\uC77C\uB7EC.c",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "RelativeDocumentMoniker": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "RelativeToolTip": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-11T07:45:42.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hello.c",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hello\\hello\\hello.c",
+              "RelativeDocumentMoniker": "hello\\hello.c",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hello\\hello\\hello.c",
+              "RelativeToolTip": "hello\\hello.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-11T07:31:41.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
