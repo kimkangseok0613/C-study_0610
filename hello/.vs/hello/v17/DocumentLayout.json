@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\hello\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\source\\repos\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\source\\repos\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\source\\repos\\hello\\hello\\hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
-              "RelativeDocumentMoniker": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
-              "RelativeToolTip": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAASAAAA",
+              "Title": "\uBCC0\uC218.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c",
+              "RelativeDocumentMoniker": "hello\\\uBCC0\uC218.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c",
+              "RelativeToolTip": "hello\\\uBCC0\uC218.c",
+              "ViewState": "AQIAADcAAAAAAAAAAADwv0MAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-11T08:29:43.114Z",
+              "WhenOpened": "2024-06-12T07:24:22.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "\uCEF4\uD30C\uC77C\uB7EC.c",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "RelativeDocumentMoniker": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "RelativeToolTip": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Title": "\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "RelativeDocumentMoniker": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "RelativeToolTip": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-11T07:45:42.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T08:29:43.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "hello.c",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hello\\hello\\hello.c",
-              "RelativeDocumentMoniker": "hello\\hello.c",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\hello\\hello\\hello.c",
-              "RelativeToolTip": "hello\\hello.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Title": "\uCEF4\uD30C\uC77C\uB7EC.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "RelativeDocumentMoniker": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "RelativeToolTip": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-11T07:31:41.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T07:45:42.556Z"
             }
           ]
         }
