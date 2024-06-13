@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825,c.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\4\uAC15_\uC785\uB825,c.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "4\uAC15_\uC785\uB825,c.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825,c.cpp",
+              "RelativeDocumentMoniker": "hello\\4\uAC15_\uC785\uB825,c.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825,c.cpp",
+              "RelativeToolTip": "hello\\4\uAC15_\uC785\uB825,c.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T08:03:31.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
+              "RelativeDocumentMoniker": "hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
+              "RelativeToolTip": "hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-13T07:03:47.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "\uBCC0\uC218.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c",
               "RelativeDocumentMoniker": "hello\\\uBCC0\uC218.c",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "RelativeDocumentMoniker": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
@@ -47,7 +81,8 @@
               "RelativeToolTip": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-11T08:29:43.114Z"
+              "WhenOpened": "2024-06-11T08:29:43.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +92,10 @@
               "RelativeDocumentMoniker": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
               "RelativeToolTip": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-11T07:45:42.556Z"
+              "WhenOpened": "2024-06-11T07:45:42.556Z",
+              "EditorCaption": ""
             }
           ]
         }
