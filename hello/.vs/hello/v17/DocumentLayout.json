@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825,c.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\4\uAC15_\uC785\uB825,c.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\4\uAC15_\uC785\uB825.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBA54\uC778.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\\uBA54\uC778.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "4\uAC15_\uC785\uB825,c.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825,c.cpp",
-              "RelativeDocumentMoniker": "hello\\4\uAC15_\uC785\uB825,c.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825,c.cpp",
-              "RelativeToolTip": "hello\\4\uAC15_\uC785\uB825,c.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-13T08:03:31.296Z",
+              "DocumentIndex": 1,
+              "Title": "lecture5.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture5.c",
+              "RelativeDocumentMoniker": "hello\\lecture5.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture5.c",
+              "RelativeToolTip": "hello\\lecture5.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-14T08:09:00.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "lecture4.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture4.c",
+              "RelativeDocumentMoniker": "hello\\lecture4.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture4.c",
+              "RelativeToolTip": "hello\\lecture4.c",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-14T07:55:49.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "lecture3.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture3.c",
+              "RelativeDocumentMoniker": "hello\\lecture3.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture3.c",
+              "RelativeToolTip": "hello\\lecture3.c",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-14T07:54:02.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "lecture2.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture2.c",
+              "RelativeDocumentMoniker": "hello\\lecture2.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture2.c",
+              "RelativeToolTip": "hello\\lecture2.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-14T07:49:34.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "lecture1.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture1.c",
+              "RelativeDocumentMoniker": "hello\\lecture1.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture1.c",
+              "RelativeToolTip": "hello\\lecture1.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-14T07:43:59.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "lectures.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lectures.h",
+              "RelativeDocumentMoniker": "hello\\lectures.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lectures.h",
+              "RelativeToolTip": "hello\\lectures.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-14T07:32:33.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "\uBA54\uC778.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBA54\uC778.c",
+              "RelativeDocumentMoniker": "hello\\\uBA54\uC778.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBA54\uC778.c",
+              "RelativeToolTip": "hello\\\uBA54\uC778.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-14T07:21:05.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
               "RelativeDocumentMoniker": "hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
               "RelativeToolTip": "hello\\4\uAC15_\uC774\uC2A4\uCF00\uC774\uD504.c",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAD0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-13T07:03:47.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "4\uAC15_\uC785\uB825.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825.c",
+              "RelativeDocumentMoniker": "hello\\4\uAC15_\uC785\uB825.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\4\uAC15_\uC785\uB825.c",
+              "RelativeToolTip": "hello\\4\uAC15_\uC785\uB825.c",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-13T08:03:31.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "\uBCC0\uC218.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c",
               "RelativeDocumentMoniker": "hello\\\uBCC0\uC218.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBCC0\uC218.c",
               "RelativeToolTip": "hello\\\uBCC0\uC218.c",
-              "ViewState": "AQIAADcAAAAAAAAAAADwv0MAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-12T07:24:22.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "RelativeDocumentMoniker": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
               "RelativeToolTip": "hello\\\uC544\uC2A4\uD0A4\uC544\uD2B8.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-11T08:29:43.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "\uCEF4\uD30C\uC77C\uB7EC.c",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "RelativeDocumentMoniker": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "RelativeToolTip": "hello\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-11T07:45:42.556Z",
               "EditorCaption": ""
             }
           ]
