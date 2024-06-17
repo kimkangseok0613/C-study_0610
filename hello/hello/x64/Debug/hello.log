@@ -1,2 +1,5 @@
-﻿  lecture4.c
+﻿  lecture.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(59,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(66,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(96,6): warning C4101: 'Final' :참조되지 않은 지역 변수입니다.
   hello.vcxproj -> C:\Users\User\Documents\GitHub\C-study_0610\hello\x64\Debug\hello.exe

@@ -73,6 +73,15 @@ int main(void)
 	scanf_s("%d", &thirdnum3);
 	printf("( %d - %d ) x ( %d + %d ) x ( %d X %d ) = %d", thirdnum1, thirdnum2, thirdnum3, (thirdnum1 - thirdnum2) * (thirdnum2 + thirdnum3) * (thirdnum3 * thirdnum1));
 
+	printf("문제5\n");
+	int thirdnum1, thirdnum2, thirdnum3;
+	printf("첫번째 숫자를 입력해주세요 : ");
+	scanf_s("%d", &thirdnum1);
+	printf("두번째 숫자를 입력해주세요 : ");
+	scanf_s("%d", &thirdnum2);
+	printf("세번째 숫자를 입력해주세요 : ");
+	scanf_s("%d", &thirdnum3);
+	printf("( %d - %d ) x ( %d + %d ) x ( %d X %d ) = %d", thirdnum1, thirdnum2, thirdnum2, thirdnum3, thirdnum3, thirdnum1, (thirdnum1 - thirdnum2) * (thirdnum2 + thirdnum3) * (thirdnum3 * thirdnum1));
 
 	return 0;
 }
