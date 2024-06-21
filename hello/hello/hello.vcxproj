@@ -135,10 +135,12 @@
     </ClCompile>
     <ClCompile Include="lecture.c" />
     <ClCompile Include="lecture1.c" />
+    <ClCompile Include="lecture10.c" />
     <ClCompile Include="lecture2.c" />
     <ClCompile Include="lecture3.c" />
     <ClCompile Include="lecture4.c" />
     <ClCompile Include="lecture5.c" />
+    <ClCompile Include="lecture9.c" />
     <ClCompile Include="메인.c" />
     <ClCompile Include="변수.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
