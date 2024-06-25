@@ -20,8 +20,8 @@ int main(void)
 	//lecture9();
 	//lecture10();
 	//lecture11();
-	//lecture12();
-	lecture12_2();
+	lecture12();
+	//lecture12_2();
 	//lecture12_3();
 
 	return 0;
