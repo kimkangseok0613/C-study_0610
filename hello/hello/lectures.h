@@ -9,3 +9,9 @@ void lecture6();
 void lecture9();
 void lecture10();
 void lecture11();
+void lecture12();
+/// <summary>
+/// 반복문 예제 문제
+/// /// </summary>
+void lecture12_2();
+void lecture12_3();
