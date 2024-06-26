@@ -20,9 +20,11 @@ int main(void)
 	//lecture9();
 	//lecture10();
 	//lecture11();
-	lecture12();
+	//lecture12();
 	//lecture12_2();
 	//lecture12_3();
+	lecture13();
+	//lecture13_switch();
 
 	return 0;
 }

@@ -61,6 +61,12 @@ void lecture12()
 	{
 		printf("HI!\n");
 	}
+
+	while(1)		//무한 반복문
+	{
+		printf("HI!\n");
+	}
+		
 */	
 }
 

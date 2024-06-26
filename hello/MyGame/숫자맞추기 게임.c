@@ -20,11 +20,12 @@ main(void) {
 	printf(" 1부터 100 사이의 값을 고르시면 게임이 시작됩니다.\n");
 	scanf_s("%d", &UserValue);
 
-	for (int i = 5; i > 0; i--)
+	for (int i = 7; i > 0; i--)
 	{
 		if (UserValue == ComputerValue)
 		{
 			printf("이겼습니다!\n");
+			break;
 		}
 		else if (UserValue < ComputerValue)
 		{
@@ -36,6 +37,5 @@ main(void) {
 			printf("더 작은 숫자입니다. %d회 남았습니다.\n", i);
 			scanf_s("%d", &UserValue);
 		}
-
 	}
 }
