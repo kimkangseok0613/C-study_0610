@@ -20,72 +20,72 @@
 
 void lecture13()
 {
-	//for (int i = 0; i < 10; i++)
-	//{	
-	//	// printf 10번 박복하는 코드를 for 반복문.
-	//	// 0번부터!특정 숫자까지 반복해서 아래의 코드를 실행하는데.
-	//	// 내가 원하는 목표값에 도달하면
-	//	printf("HI! %d\n",i);
+	for (int i = 0; i < 10; i++)
+	{	
+		// printf 10번 박복하는 코드를 for 반복문.
+		// 0번부터!특정 숫자까지 반복해서 아래의 코드를 실행하는데.
+		// 내가 원하는 목표값에 도달하면
+		printf("HI! %d\n",i);
+	
+		if (i == 7)
+		{
+			printf("i가 7일때 출력됨\n");
+			break;
+		}
+	}
+	int index = 0;
+	for (;;)	//무한 반복문, ctrl + c
+	{
+		index++;
+		printf("Hi %d\n", index);
+		if (index == 7)
+		{
+			printf("7이 출력되었습니다.\n");
+			break;
+		}
+	}
+	
 	//
-	//	if (i == 7)
-	//	{
-	//		printf("i가 7일때 출력됨\n");
-	//		break;
-	//	}
-	//}
-	//int index = 0;
-	//for (;;)	//무한 반복문, ctrl + c
-	//{
-	//	index++;
-	//	printf("Hi %d\n", index);
-	//	if (index == 7)
-	//	{
-	//		printf("7이 출력되었습니다.\n");
-	//		break;
-	//	}
-	//}
-	//
-	////
-	//int targetNum;		// 출력하고자 하는 목표 숫자(scanf_s)
-	//int counter = 0;	// 반복문에서 targetNum을 찾기 위한 변수
-	//scanf_s("%d", &targetNum);
-	//
-	//for (;;)
-	//{
-	//	counter++;
-	//	if (targetNum == counter)
-	//	{
-	//		printf("원하는 결과값이 출력되었습니다. %d\n", targetNum);
-	//		break;
-	//	}
-	//}
+	int targetNum;		// 출력하고자 하는 목표 숫자(scanf_s)
+	int counter = 0;	// 반복문에서 targetNum을 찾기 위한 변수
+	scanf_s("%d", &targetNum);
+	
+	for (;;)
+	{
+		counter++;
+		if (targetNum == counter)
+		{
+			printf("원하는 결과값이 출력되었습니다. %d\n", targetNum);
+			break;
+		}
+	}
 	//
 	////while 반복문
-	//scanf_s("%d", &targetNum);
-	//int w_counter=0;
-	//while (1)
-	//{
-	//	w_counter++;
-	//	if (targetNum == w_counter)
-	//	{
-	//		printf("원하는 결과값이 출력되었습니다. %d\n", targetNum);
-	//		break;
-	//	}
-	//}
-	//
-	//// continue 사용 예시
-	//int w_num = 0;
-	//while (w_num < 100)
-	//{
-	//	w_num++;
-	//	if (w_num % 2 == 0)	// 2로 나눴을때 나머지가 0인것
-	//	{
-	//		printf("건너뛴 w_num의 값 : %d\n", w_num);
-	//		continue;
-	//	}
-	//	printf("w_num의 값 : %d\n", w_num);
-	//	
-	//}
+	scanf_s("%d", &targetNum);
+	int w_counter=0;
+	while (1)
+	{
+		w_counter++;
+		if (targetNum == w_counter)
+		{
+			printf("원하는 결과값이 출력되었습니다. %d\n", targetNum);
+			break;
+		}
+	}
+	
+	// continue 사용 예시
+	int w_num = 0;
+	while (w_num < 100)
+	{
+		w_num++;
+		if (w_num % 2 == 0)	// 2로 나눴을때 나머지가 0인것
+		{
+			printf("건너뛴 w_num의 값 : %d\n", w_num);
+			continue;
+		}
+		printf("w_num의 값 : %d\n", w_num);
+		
+	}
 
 	// 주사위를 굴린다. 주사위에 12개의 면이 있다 scanf_s 주사위의 눈을 조작.
 	// 만약에 주사위가 짝수가 나온다면, 갖고 있는 돈의 소지금이 2배가 된다.

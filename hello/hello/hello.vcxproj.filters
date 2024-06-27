@@ -60,6 +60,9 @@
     <ClCompile Include="lecture13_switch.c">
       <Filter>소스 파일\강의</Filter>
     </ClCompile>
+    <ClCompile Include="lecture14.c">
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lectures.h">

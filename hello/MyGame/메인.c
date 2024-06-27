@@ -1,6 +1,7 @@
 #include	<stdio.h>
 #include	<stdlib.h>
 #include	<time.h>
+#include	"CountNumFnc.h"
 
 int main(void)
 {
@@ -16,48 +17,46 @@ int main(void)
 	srand(time(NULL));
 	int ComputerValue = rand() % 100 + 1; // 1 ~ 100 랜덤한 숫자가 ComputerValue에 입력이 됩니다.
 	int UserValue;
-	int DummyValue;
+	int playerHP = 7;
 
 	printf("★☆환영합니다☆★\n");
 	printf("Plese Press Any Number\n");
-	scanf_s("%d", &DummyValue);
+
 	printf("게임 시작\n");
-	printf("\n");
+
 	printf(" 1부터 100 사이의 값을 고르시면 게임이 시작됩니다.\n");
 	scanf_s("%d", &UserValue);
 	printf("컴퓨터의 값은 %d 입니다.\n", ComputerValue);
 	printf("유저의 값은 %d 입니다.\n", UserValue);
-    if (ComputerValue == UserValue) {
-        printf("컴퓨터의 값과 일치합니다. 축하합니다.");
-    }
-    else
-    {
-        printf("다시 시도해보세요.");
 
-        scanf_s("%d", &UserValue);
-        printf("플레이어의 값은 %d 입니다.", UserValue);
+	while (1)
+	{
+		if (ComputerValue == UserValue) \
+		{	
+			// 함수화_1 : GameWin() 게임에서 승리를 구현하는 함수를 만들어보세요.
 
-        if (ComputerValue == UserValue)
-        {
-            printf("컴퓨터의 값과 일치합니다. 축하합니다.");
-        }
-        else
-        {
-            printf("다시 시도해보세요.");
+			GameWin();
+			break;
+		}
+		else
+		{
+			if (playerHP <= 0)
+			{
+				printf("게임종료\n");
+				break;
+			}
 
-            scanf_s("%d", &UserValue);
-            printf("플레이어의 값은 %d 입니다.", UserValue);
+			// 함수화_2 : 플레이어의 체력을 감소시키고 숫자를 다시 맞출 기회를 주는 코드를 함수화 하세요
+			else
+			{
+				playerHP--;
+				printf("틀렸습니다. 플레이어의 값을 입력해주세요\n");
 
-            if (ComputerValue == UserValue)
-            {
-                printf("컴퓨터의 값과 일치합니다. 축하합니다.");
-            }
-            else
-            {
-
-            }
-        }
-    }
+				scanf_s("%d", &UserValue);
+				printf("플레이어의 값은 %d 입니다.\n", UserValue);
+			}
+		}
+	}
 	// 플레이어의 값과 컴퓨터의 값이 같으면 축하합니다. 게임을 클리어하셨습니다.
 
 	// 플레이어의 값과 컴퓨터의 값이 다르면 틀렸습니다. 다시 시도해보세요.
