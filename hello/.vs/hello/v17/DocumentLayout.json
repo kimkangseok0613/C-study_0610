@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13_switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture13_switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13_switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture13_switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\\uBA54\uC778.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "MyGame\\\uC22B\uC790\uB9DE\uCD94\uAE30 \uAC8C\uC784.c",
               "ViewState": "AQIAAA0AAAAAAAAAAAAYwBkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-26T08:33:32.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:33:32.979Z"
             },
             {
               "$type": "Document",
@@ -59,31 +58,30 @@
               "RelativeToolTip": "MyGame\\\uBA54\uC778.c",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-26T08:33:25.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:33:25.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "lecture13_switch.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13_switch.c",
               "RelativeDocumentMoniker": "hello\\lecture13_switch.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13_switch.c",
               "RelativeToolTip": "hello\\lecture13_switch.c",
-              "ViewState": "AQIAACgAAAAAAAAAAAAwwDoAAAAjAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwDoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-26T08:11:48.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "lecture13.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13.c",
               "RelativeDocumentMoniker": "hello\\lecture13.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture13.c",
               "RelativeToolTip": "hello\\lecture13.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAIAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-26T07:05:01.747Z",
               "EditorCaption": ""
@@ -98,8 +96,7 @@
               "RelativeToolTip": "hello\\\uBA54\uC778.c",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-26T07:05:00.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T07:05:00.279Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "hello\\lectures.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-26T07:06:48.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T07:06:48.338Z"
             }
           ]
         }
