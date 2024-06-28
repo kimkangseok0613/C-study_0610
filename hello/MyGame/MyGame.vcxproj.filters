@@ -18,9 +18,6 @@
     <ClCompile Include="메인.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="숫자맞추기 게임.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="CountNumFnc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>

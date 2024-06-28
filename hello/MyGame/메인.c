@@ -2,6 +2,9 @@
 #include	<stdlib.h>
 #include	<time.h>
 #include	"CountNumFnc.h"
+//int InputNumber();	// 함수를 미리 선언해두는 방식.
+					// 사용 이유 : 컴파일러는 코드를 위에서부터 읽기 때문에 미리 선언되어있지 않은 함수를 호출할 수 없다.
+					// C언어에서 이 함수를 나중에 사용한다.
 
 int main(void)
 {
@@ -14,24 +17,24 @@ int main(void)
 
 	// 정수 또는 실수 데이터를 만들어서 컴퓨터가 생각하는 결과를 출력하고, 내가 생각하는 결과를 같이 출력하는 프로그램을 만들어 보세요.
 
+
 	srand(time(NULL));
 	int ComputerValue = rand() % 100 + 1; // 1 ~ 100 랜덤한 숫자가 ComputerValue에 입력이 됩니다.
 	int UserValue;
-	int playerHP = 7;
-
-	printf("★☆환영합니다☆★\n");
-	printf("Plese Press Any Number\n");
+	int playerHP = SetPlayerHP();
+	StartGameSetting();
 
 	printf("게임 시작\n");
 
+	UserValue = InputNumber();
 	printf(" 1부터 100 사이의 값을 고르시면 게임이 시작됩니다.\n");
-	scanf_s("%d", &UserValue);
+	//scanf_s("%d", &UserValue);
 	printf("컴퓨터의 값은 %d 입니다.\n", ComputerValue);
-	printf("유저의 값은 %d 입니다.\n", UserValue);
+	//printf("유저의 값은 %d 입니다.\n", UserValue);
 
 	while (1)
 	{
-		if (ComputerValue == UserValue) \
+		if (ComputerValue == UserValue)
 		{	
 			// 함수화_1 : GameWin() 게임에서 승리를 구현하는 함수를 만들어보세요.
 
@@ -65,3 +68,4 @@ int main(void)
 
 	return 0;
 }
+
