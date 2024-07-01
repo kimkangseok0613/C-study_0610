@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\\uBA54\uC778.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\\uBA54\uC778.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "\uBA54\uC778.c",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\\uBA54\uC778.c",
-              "RelativeDocumentMoniker": "Avoid_Star\\\uBA54\uC778.c",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\\uBA54\uC778.c",
-              "RelativeToolTip": "Avoid_Star\\\uBA54\uC778.c",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEwAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-01T07:12:53.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Console.c",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c",
-              "RelativeDocumentMoniker": "Avoid_Star\\Console.c",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c",
-              "RelativeToolTip": "Avoid_Star\\Console.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAArAAAA",
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\main.c",
+              "RelativeDocumentMoniker": "Avoid_Star\\main.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\main.c",
+              "RelativeToolTip": "Avoid_Star\\main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-01T07:10:37.222Z",
+              "WhenOpened": "2024-07-01T09:39:47.646Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +45,22 @@
               "RelativeDocumentMoniker": "Avoid_Star\\Console.h",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.h",
               "RelativeToolTip": "Avoid_Star\\Console.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-01T07:09:36.028Z",
+              "WhenOpened": "2024-07-01T09:39:40.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Console.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c",
+              "RelativeDocumentMoniker": "Avoid_Star\\Console.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c",
+              "RelativeToolTip": "Avoid_Star\\Console.c",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-01T09:39:27.216Z",
               "EditorCaption": ""
             }
           ]
