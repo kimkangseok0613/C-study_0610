@@ -137,9 +137,12 @@
     <ClCompile Include="lecture13.c" />
     <ClCompile Include="lecture13_switch.c" />
     <ClCompile Include="lecture14.c" />
+    <ClCompile Include="lecture16.c" />
     <ClCompile Include="lecture2.c" />
     <ClCompile Include="lecture3.c" />
-    <ClCompile Include="lecture4.c" />
+    <ClCompile Include="lecture4.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="lecture5.c" />
     <ClCompile Include="lecture9.c" />
     <ClCompile Include="메인.c" />
