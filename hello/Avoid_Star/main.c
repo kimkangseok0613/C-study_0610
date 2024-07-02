@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "Console.h"
+#include <stdio.h>		// printf, scanf 함수를 사용하기 위해서 필요한다.		// 시스템 폴더의 헤더파일을 불러온다.
+#include "Console.h"	// 프로젝트 안에 ""안에 있는 파일을 찾아서 복사해라.
 #include <stdbool.h>
 #include <time.h>
 #include <stdlib.h>
@@ -14,15 +14,15 @@ int main()
 	int x = 14, y = 28;
 	int bx = 0, by = 0;
 	bool bullet = false;
-	srand(time(NULL));
 
 #if false
 	int ex = 0, ey = 0;
 	bool enemy = false;
 #endif
-	int ex[10] = { 0 };
-	int ey[10] = { 0 };
-	bool enemy[10] = { false };
+	int ex[MAX] = { 0 };
+	int ey[MAX] = { 0 };
+	bool enemy[MAX] = { false };
+	srand(time(NULL));
 
 #if true
 	while (true)
@@ -37,7 +37,7 @@ int main()
 			enemy = true;
 		}
 #endif
-		for (int i = 0;i < MAX;i++)
+		for (int i = 0; i < MAX; i++)
 		{
 			if (!enemy[i])
 			{
@@ -111,10 +111,11 @@ int main()
 		{
 			if (enemy[i])
 			{
-				GotoXY(ex, ey);
+				GotoXY(ex[i], ey[i]);
 				printf("☆");
+				ey[i]++;
 
-				if (ey > 28)
+				if (ey[i] > 28)
 					enemy[i] = false;
 			}
 		}
