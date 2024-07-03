@@ -7,6 +7,13 @@
       "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|solutionrelative:Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DEC91-8CDF-487B-B4F1-F906AF984BA6}|Avoid_Star\\Avoid_Star.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UCRT\\STDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture16.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3EC7F931-9AC1-4A1C-AECE-AA231C89442E}|hello\\hello.vcxproj|solutionrelative:hello\\lecture16.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,8 +25,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ViewState": "AQIAADkEAAAAAAAAAAAkwEoEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-03T08:23:58.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Console.c",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c",
+              "RelativeDocumentMoniker": "Avoid_Star\\Console.c",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\Console.c",
+              "RelativeToolTip": "Avoid_Star\\Console.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-03T08:20:52.658Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +61,23 @@
               "RelativeDocumentMoniker": "Avoid_Star\\main.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\Avoid_Star\\main.c",
               "RelativeToolTip": "Avoid_Star\\main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAADwv60AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-02T08:08:26.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "lecture16.c",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture16.c",
               "RelativeDocumentMoniker": "hello\\lecture16.c",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\C-study_0610\\hello\\hello\\lecture16.c",
               "RelativeToolTip": "hello\\lecture16.c",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-02T07:49:35.685Z"
+              "WhenOpened": "2024-07-02T07:49:35.685Z",
+              "EditorCaption": ""
             }
           ]
         }
