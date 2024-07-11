@@ -138,6 +138,7 @@
     <ClCompile Include="lecture13_switch.c" />
     <ClCompile Include="lecture14.c" />
     <ClCompile Include="lecture16.c" />
+    <ClCompile Include="lecture17.c" />
     <ClCompile Include="lecture2.c" />
     <ClCompile Include="lecture3.c" />
     <ClCompile Include="lecture4.c">
