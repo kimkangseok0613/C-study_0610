@@ -1,0 +1,75 @@
+﻿  lecture.15.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.15.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(59,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(66,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(96,6): warning C4101: 'Final' :참조되지 않은 지역 변수입니다.
+  lecture1.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture1.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture10.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture10.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture10.c(54,21): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture10.c(58,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture11.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture11.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture12.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture12.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture12_3.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture12_3.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture13.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture13.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture13_switch.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture13_switch.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture14.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(36,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(57,2): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(86,24): warning C4013: 'Compare'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(86,32): warning C4013: 'AbsoluteNum'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  lecture16.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture17.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture17.c(75,34): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture17.c(119,11): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture17.c(121,15): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  lecture18.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(25,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(26,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  lecture2.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture2.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture3.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture3.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture3.c(26,34): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture4.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture4.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture4.c(8,50): error C2017: 이스케이프 시퀀스가 잘못되었습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture4.c(8,51): error C2146: 구문 오류: ')'이(가) 'n' 식별자 앞에 없습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture4.c(8,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture4.c(8,52): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+  lecture5.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture9.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture9.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture9.c(132,20): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  메인.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\메인.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.15.c(31,1): warning C4716: 'PlusOne': 값을 반환해야 합니다.
