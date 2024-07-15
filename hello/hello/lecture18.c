@@ -160,18 +160,85 @@ void lecture18()
 	// arr[1000] -> 4 x 1000; 8
 
 	// 예제 문제2. 포인터 연산의 뺄셈을 사용해서 배열의 큰 수 부터 작은 수를 출력하도록.
-	int secondArr[5] = { 1,2,3,4,5 };
-	int* secondArrPtr = secondArr;
-	secondArrPtr += 5;
+	int secondArr[5] = { 1,2,3,4,5 };	// 정수형 배열 5개 선언 및 초기화
+	int* secondArrPtr = secondArr;		// 포인터(주소를 저장하는 변수) 배열의 이름자체가 포인터, &seconArr : 주소의 주소
+	secondArrPtr += 4;					// 포인터 변수 +4 : sizeof(int) * n
+	printf("예제문제 2\n");
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d ", * secondArrPtr);
+		secondArrPtr--;
+	}
 
-	for (int i = 4; i >= 0; i--)
+	printf("\n");
+
+	// 정리(1)
+	// 변수 - 값, 주소
+	// &주소연산자, 포인터 int *
+	// 포인터 변수 역참조 연산자 *포인터변수
+	// 포인터 변수 ++
+	// 16진수 0x1000; +1 sizeod(int)
+	// 배열의 이름 == 포인터 변수
+
+	// 정리(2)
+	printf("정리 2\n");
+	int o_Arr[3] = { 1, 2, 3 };
+	int* o_ArrPtr = o_Arr;
+
+	for (int i = 0; i < 3; i++)
 	{
-		*secondArrPtr;
+		printf("(Prt+i) : %d", (o_ArrPtr + i));
+		printf("*(arr+i) : %d", *(o_Arr + i));
+		printf("arr[i] : %d", o_Arr[i]);
+		printf("Ptr[i] : %d\n", o_ArrPtr[i]);
 	}
-	for (int i = 4; i >= 0; i--)
-	{
-		printf("큰 수부터 작은수 출력 %d\n", secondArr[i]);
-	}
+
+	// 배열과 포인터 정리
+	/*
+	*  (ptr + 0) (ptr + 1) (ptr + 2)	// 포인터 변수 주소의 연산
+	*  (arr + 0) (arr + 1) (arr + 2)	// 배열 이름(주소) 연산
+	*  ptr[0] = *(ptr + 0);
+	*  arr[0] = *(arr + 0);
+	*  ptr[0] ptr[1] ptr[2]				// 해당 주소의 값을 출력 역참조
+	*  arr[0] arr[1] arr[2]				// 해당 주소의 값을 출력 역참조
+	* 
+	*  배열과 포인터 사이의 공식 : arr[i] = *(arr + i);
+	*/
 	
+	// 잘못된 포인터의 사용, 널 포인터
+	int* ob_numPtrA = 0x100000;	// int num = 10;
+
+	//printf("%p\n", ob_numPtrA);	// 0x100000 메모리 주소에 여기에 있는 값이 있을수도 있고 없을수도 있다.
+	//printf("%d\n", *ob_numPtrA);	// 포인터 직접 주소 배정해주는 것은 위험하다. 오류가 발생할 가능성이 매우 높다.
+
+	//o_numPtrA = 0;		// NULL : 널 포인터. 이 주소가 아무것도 가리키고 있지 않다.
+	//o_numPtrA = NULL;
+
 	// 예제 문제3. 길이가 6인 배열을 선언해서 1,2,3,4,5,6 => 6,5,4,3,2,1 출력하게 하는 코드를 작성.
+
+	int t_arr[6] = { 1, 2, 3, 4, 5, 6 };	// 1,2,3,4,5,6 정수형 선언 및 초기화
+	int* frontPtr = (t_arr + 0);
+	int* backPtr = (t_arr + 5);
+	int temp;
+
+	printf("바꾸기 이전의 값\n");
+	for (int i = 0; i < 6; i++)
+	{
+		printf("%d ", t_arr[i]);
+	}
+	printf("\n");
+	printf("바꾼 이후의 값\n");
+	for (int i = 0; i < 3; i++)	// 배열의 길이 (6) 나누기 2 한 값 : 3
+	{
+		temp = *frontPtr;
+		*frontPtr = *backPtr;
+		*backPtr = temp;
+		frontPtr++;
+		backPtr--;
+	}
+	for (int i = 0; i < 6; i++)
+	{
+		printf("%d ", t_arr[i]);
+	}
+
 }
