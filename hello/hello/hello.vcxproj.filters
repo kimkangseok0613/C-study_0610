@@ -87,6 +87,9 @@
     <ClCompile Include="lecture20.C">
       <Filter>소스 파일\겜프2</Filter>
     </ClCompile>
+    <ClCompile Include="lecture22.c">
+      <Filter>소스 파일\겜프2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lectures.h">
