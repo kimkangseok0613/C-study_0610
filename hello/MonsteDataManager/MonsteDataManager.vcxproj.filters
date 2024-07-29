@@ -18,5 +18,16 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="구조체 예제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.c">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Function,c.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
