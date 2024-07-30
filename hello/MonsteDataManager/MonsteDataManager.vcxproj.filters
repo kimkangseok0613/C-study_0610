@@ -22,12 +22,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Function.c">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Function,c.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="Function.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
