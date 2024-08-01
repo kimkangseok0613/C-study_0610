@@ -1,6 +1,6 @@
 ﻿  main.c
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(104,4): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(60,7): warning C4101: 'monster_nmae' :참조되지 않은 지역 변수입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(62,7): warning C4101: 'monster_grade' :참조되지 않은 지역 변수입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(61,7): warning C4101: 'monster_region' :참조되지 않은 지역 변수입니다.
-  MonsteDataManager.vcxproj -> C:\Users\User\Documents\GitHub\C-study_0610\hello\x64\Debug\MonsteDataManager.exe
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(152,4): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(106,7): warning C4101: 'monster_nmae' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(108,7): warning C4101: 'monster_grade' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(107,7): warning C4101: 'monster_region' :참조되지 않은 지역 변수입니다.
+  MonsteDataManager.vcxproj -> C:\Users\Administrator\Desktop\C-study_0610\hello\x64\Debug\MonsteDataManager.exe

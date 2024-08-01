@@ -3,12 +3,12 @@
 // 키보드의 입력 모니터의 출력
 
 #include "lectures.h"
+#include "FileFunC.h"
 
-#define filename "Test\\People.txt"
+#define filename2 "filemode.txt"
 
 // 파일이 저장되는 위치.
 // 
-
 // printf : 모니터에 출력을 하고 있습니다.
 // scanf  : 키보드로부터 입력받은 값을 주소를 전달해서 주소에 저장
 // fopen  : 파일을 열거나 쓰기 위해서 운영체제가 지원해주는 함수
@@ -16,122 +16,139 @@
 // 키보드,마우스,모니터 ... 하드웨어가 컴퓨터에서 작동하도록 관리해준다.
 // 하드웨어도 회사가 정말 다양하고,
 // 스트림 : 모니터 <- 키보드 <- 마우스 , 서로 다른 하드웨어를 연결해주 것
- 
- 
+//
 // 변수를 저장 -> RAM : 휘발성 메모리 : 컴퓨터 또는 프로그램이 종료되면 사라지는 메모리
 // 비휘발성 메모리 : 프로그램이 종료되고 컴퓨터가 종료되도 저장되는 메모리
 // 데이터를 저장하고싶다.
 // 운영체제가 다르고, 종류도 다 다른 데이터를 저장하려면, 파일 스트림을 연결시켜줘야 한다.
 // 구조체 File
 
-typedef struct Person {
-	char name[30];
-	int age;
-}Person;
+// 파일 입출력2
+// 쓰기. "w+" Appendix 쓰기
+// w+모드
+// 기능 : 파일을 읽고 쓰기 위한 모드. 파일이 존재하지 않으면 파일을 새로 생성하고, 파일이 존재하면 내용을 모두 지우고 다시 씁니다.
+//
+// r+모드
+// 기능 : 파일을 읽은 후 쓰기 위한 모드. 파일이 존재하지 않으면 에러가 발생합니다.
+// 
+// a모드 (appendix)
+// 기능 : 파일을 추가 모드로 열기 위한 모드. 파일의 마지막에 새로운 데이터를 쓰기 위한 모드입니다.
+// 
+// a+모드
+// 기능 : 파일을 추가한 후에 읽기까지 가능한 모드.
+// 
+// fseek 함수 : 파일을 입출력할 때 파일의 크기만큼 file pointer 가리키는 값이 달라지게 된다.
+// fp를 이용해서 쓰기와 읽기를 동시에 한다면, 처음에 쓰기를 fp 마지막 값을 가리키게 된다.
+// fseek(fp,0,SEEK_SET);
+// SEEK_SET : 파일의 시작점
+// SEEK_END : 파일의 끝
+// SEEK_CUR : 파일의 현재 시작점
+//
+// 요약
+// "w+" : 쓰기/읽기 가능한 모드, 파일이 존재하면 내용을 모두 지우고 새로 시작
+// "r+" : 읽기/쓰기 가능한 모드, 파일을 읽은 후에 다시 쓰기가 가능한 모드
+// "a"	: 파일이 가리키는 마지막 위지(EOF)에서 데이터를 추가하는 모드
+// "a+"	: 파일을 추가한 후에 읽기까지 가능한 모드
 
-void WriteFile()
+void WritePlus()
 {
-	// fp = fopen_s(&fp, "a.txt", "w");
-	// fopen
-	FILE* fp = fopen(filename, "w"); // a.txt 파일과 운영체제 파일 스트림과 연결
+	FILE* fp = fopen(filename2, "w+");
 
 	if (fp == NULL)
 	{
-		printf("Write Error!\n");
-		return 0;
+		printf("파일 연결 실패!\n");
 	}
-
-	fputs("Today is 2024-07-31\n", fp); // fputs ( 입력하고 싶은 값, 스트림);
-
-	// FILE* 파일 스트림을 저장하는 구조체, stdout : 모니터에 연결해주는 스트림
-	//fputs("Hello World!!\n", stdout);
-
+	// 파일 입력(write)
+	fputs("Hello World!!\n", fp);
+	// 파일과 파일의 끝 '\0' 
+	fseek(fp, 0, SEEK_SET);
+	// 파일 출력(read)
+	char buffer[100];
+	fgets(buffer, sizeof(buffer), fp);
+	printf("Read from this file : %s", buffer);
 	fclose(fp);
 }
 
-void ReadFile()
+void FileIndicator()
 {
-	FILE* fp = fopen(filename, "r");
-
+	FILE* fp = fopen(filename2, "r");
 	if (fp == NULL)
 	{
-		printf("Read Error!\n");
-		return 0;
+		//ferror(fp);
+		printf("파일 읽기 실패!\n");
 	}
 
-	// string, char
-	//fgets : 문자열로 읽어오는 함수
-	//fgetc : 한개씩 읽어오는 함수
-
-	char buffer[100]; // 버퍼 : 데이터를 일시적으로 보관했다가 필요할때 꺼내서 쓰는 용도
-
-	fgets(buffer, 100, fp);
-	printf("%s\n", buffer);
+	fgetc(fp);	// File에서 fp의 주소가 가리키고 있는 char를 가져온 후, fp는 다음주소를 가리켜라
+	fgetc(fp);
+	fgetc(fp);
+	fgetc(fp);
+	fgetc(fp);
+	fgetc(fp);
+	printf("현재 포인터가 가리키고 있는 문자 : %c\n", fgetc(fp));
 	fclose(fp);
 }
 
-void WriteFileByStruct()
+void ReadPlus()
 {
-	Person People[3] =
-	{
-		("이순신", 31),
-		("강감찬", 32),
-		("장보고", 33)
-	};
-
-	for (int i = 0; i < 3; ++i)
-	{
-		printf("이름 : %s, 나이 : %d\n", People[i].name, People[i].age);
-	}
-
-	FILE* fp = fopen(filename, "w");
+	FILE* fp = fopen(filename2, "r+");
 
 	if (fp == NULL)
 	{
-		printf("Write Error!\n");
-		return 0;
+		printf("파일 연결 실패!\n");
 	}
+	char buffer[100];
+	fgets(buffer, sizeof(buffer), fp);
+	printf("Read from this file : %s", buffer);
 
-	for (int i = 0; i < 3; ++i)
-	{
-		fprintf("이름 : %s, 나이 : %d\n", People[i].name, People[i].age);
-	}
+	fseek(fp, 0, SEEK_END);
+	fputs("Append text\n", fp);
 	fclose(fp);
 }
 
-void ReadFileByStruct()
+void AppendixMode()
 {
-	FILE* fp = fopen(filename, "r");
+	FILE* fp = fopen(filename2, "a");
 	if (fp == NULL)
 	{
-		printf("Read Error!\n");
-		return 0;
+		printf("append mode error!\n");
 	}
+	fputs("Append More Text\n", fp);
+	fclose(fp);
+}
 
-	Person People[3];
-	for (int i = 0; i < 3; ++i)
+void AppendixPlusMode()
+{
+	FILE* fp = fopen(filename2, "a+");
+	if (fp == NULL)
 	{
-		fscanf_s(fp, "이름 : %s, 나이 : %d", People[i].name, 30, &People[i].age);
-		printf("이름 : %s, 나이 : %d", People[i].name, People[i].age);
+		perror("Append plus Error!\n");
 	}
+	fputs("Append even more Text\n", fp);
+	fseek(fp, 0, SEEK_SET);
+
+	char buffer[100];
+	fgets(buffer, sizeof(buffer), fp);
+	printf("Read from file %s\n", buffer);
+	fclose(fp);
 }
 
 void lecture26()
 {
-	//WriteFile();	파일을 써서 저장하는 함수
-	//ReadFile();	파일을 읽는 함수
-	WriteFileByStruct();
+	//WriteFile();	// 파일을 써서 저장하는 함수
+	//ReadFile();		// 파일을 읽는 함수
+	//WriteFileByStruct();
 	//ReadFileByStruct();
+	//WritePlus();
+	//FileIndicator();
+	//ReadPlus();
+	//AppendixMode();
+	AppendixPlusMode();
 
+}
 	// Test 폴더 안에, CProgram 이름으로 내용을 Today is 2024-07-31 텍스트가 출력되도록 파일을 하나 생성해줍니다.
 	// 생성된 파일을 읽어와서 콘솔차에 출력되도록 해주세요.
 	// Test\CProgram.txt 있는 것을 확인해주시고 콘솔창이 열려있고 Today is 2024-07-31 출력되도록 도전해보세요.
 
-	
-	
-	
-
-}
 
 
 
