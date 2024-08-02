@@ -162,4 +162,5 @@ int main()
 
 	PrintMonsterList(monsterGroup, totalMonsterCount);
 
+	return 0;
 }

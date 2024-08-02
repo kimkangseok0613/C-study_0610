@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\C-study_0610\hello\ToyProject01\main.c(10,3): warning C4013: 'Clear'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\ToyProject01\main.c(11,3): warning C4013: 'GotoXY'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  ToyProject01.vcxproj -> C:\Users\Administrator\Desktop\C-study_0610\hello\x64\Debug\ToyProject01.exe
