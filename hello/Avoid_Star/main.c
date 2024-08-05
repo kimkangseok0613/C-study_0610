@@ -149,7 +149,7 @@ int main()
 		
 
 #endif
-		for (int i = 0;i < MAX;i++)
+		for (int i = 0;i < 30;i++)
 		{
 			if (enemy[i])
 			{

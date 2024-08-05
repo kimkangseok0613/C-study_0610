@@ -1,4 +1,4 @@
-﻿  Console.c
-  main.c
-  코드를 생성하고 있습니다...
-  ConsoleAdventure.vcxproj -> C:\Users\Administrator\Desktop\C-study_0610\hello\x64\Debug\ConsoleAdventure.exe
+﻿  main.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\ConsoleAdventure\main.c(106,2): warning C4013: 'SelectStartMenu'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+main.obj : error LNK2019: SelectStartMenumain 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\User\Documents\GitHub\C-study_0610\hello\x64\Debug\ConsoleAdventure.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

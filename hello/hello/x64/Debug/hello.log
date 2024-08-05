@@ -1,7 +1,99 @@
-﻿  lecture27.c
-C:\Users\Administrator\Desktop\C-study_0610\hello\hello\lecture27.c(22): warning C4716: 'Add_one': 값을 반환해야 합니다.
-C:\Users\Administrator\Desktop\C-study_0610\hello\hello\lecture27.c(121,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-  C:\Users\Administrator\Desktop\C-study_0610\hello\hello\lecture27.c(121,9):
-  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-  
-  hello.vcxproj -> C:\Users\Administrator\Desktop\C-study_0610\hello\x64\Debug\hello.exe
+﻿  FileFunC.c
+  lecture.15.c
+  lecture.c
+  lecture1.c
+  lecture10.c
+  lecture11.c
+  lecture12.c
+  lecture12_3.c
+  lecture13.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\FileFunC.c(12,3): warning C4098: 'WriteFile': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\FileFunC.c(29,3): warning C4098: 'ReadFile': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\FileFunC.c(61,3): warning C4098: 'WriteFileByStruct': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\FileFunC.c(66,11): warning C4133: '함수': 'char [22]'과(와) 'FILE *const ' 사이의 형식이 호환되지 않습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\FileFunC.c(76,3): warning C4098: 'ReadFileByStruct': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.15.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(59,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(66,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.c(96,6): warning C4101: 'Final' :참조되지 않은 지역 변수입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture1.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture10.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture10.c(54,21): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture10.c(58,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture11.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture12.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture12_3.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture13.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture13_switch.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture13_switch.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture14.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(36,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(57,2): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(86,24): warning C4013: 'Compare'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture14.c(86,32): warning C4013: 'AbsoluteNum'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  lecture16.c
+  lecture17.c
+  lecture18.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture17.c(75,34): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture17.c(119,11): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture17.c(121,15): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(35,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(36,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(156,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(157,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(190,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(190,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(25,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(26,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(92,8): warning C4047: '초기화 중': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(95,9): warning C4047: '초기화 중': 'short *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture18.c(209,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  lecture19.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture19.c(53,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture19.c(54,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture19.c(41,7): warning C4090: '초기화 중': 'const' 한정자가 서로 다릅니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture19.c(86,13): warning C4090: '초기화 중': 'const' 한정자가 서로 다릅니다.
+  lecture2.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture2.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture20.C
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture20.C(32,3): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  lecture21.c
+  lecture22.c
+  lecture23.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture23.c(71,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture23.c(72,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture23.c(73,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture23.c(64,8): warning C4047: '초기화 중': 'int **'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+  코드를 생성하고 있습니다...
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture.15.c(31,1): warning C4716: 'PlusOne': 값을 반환해야 합니다.
+  컴파일하고 있습니다...
+  lecture24.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture24.c(40,7): warning C4101: 'item1' :참조되지 않은 지역 변수입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture24.c(39,10): warning C4101: 'p2' :참조되지 않은 지역 변수입니다.
+  lecture25.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(17,9): warning C4068: 알 수 없는 pragma 'pop'
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(61,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(114,15): warning C4552: '-': 식의 결과가 사용되지 않습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(116,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'Point'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(138,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(150,20): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(162,8): warning C4101: 'c_p3' :참조되지 않은 지역 변수입니다.
+  lecture26.c
+  lecture27.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture27.c(121,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  lecture3.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture3.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture3.c(26,34): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture5.c
+  lecture9.c
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture9.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture9.c(133,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture9.c(134,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture9.c(132,20): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  메인.c
+  코드를 생성하고 있습니다...
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture27.c(22,1): warning C4716: 'Add_one': 값을 반환해야 합니다.
+C:\Users\User\Documents\GitHub\C-study_0610\hello\hello\lecture25.c(51,1): warning C4716: 'AddPoint': 값을 반환해야 합니다.
+  hello.vcxproj -> C:\Users\User\Documents\GitHub\C-study_0610\hello\x64\Debug\hello.exe

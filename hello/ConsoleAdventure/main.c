@@ -2,6 +2,8 @@
 #include "Console.h"
 #include <stdbool.h>
 
+
+
 #define ROWS 30	// 가로
 #define COLS 30	// 세로 collumn
 
@@ -87,6 +89,12 @@ void RenderMap()
 	mapString[mapIndex] = '\0';	}
 
 
+
+void ShowGameRecord()
+{
+
+}
+
 void GameInfo()	// 게임의 정보를 출력하는 함수를 담당.
 {
 
@@ -95,8 +103,12 @@ void GameInfo()	// 게임의 정보를 출력하는 함수를 담당.
 
 int main()
 {
-	printf("콘솔 모험");
-	Clear();
+	SelectStartMenu();
+
+
+	
+	
+	
 
 	SetConsoleSize(50,50);
 	SetConsoleCursorVisibility(0); // 1이 되면 true, 0이 되면 false
