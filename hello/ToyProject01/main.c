@@ -5,14 +5,54 @@
 #include <time.h>
 #include "Function.h"
 #include "Console.h"
+#include "string.h"
 
 #define filename "Running Record.txt"
-#define MenuX 105
-#define MenuY 18
-#define hurdleY 35
+#define MenuX 57
+#define MenuY 13
+#define hurdleY 25
+#define ROWS 25	// 가로
+#define COLS 15 // 세로
 
-int hurdle = 145;
-int dinoY = 26;
+char DinoString[(COLS * (ROWS + 1)) + 1];
+char DinoData[COLS][ROWS] = { 0 };
+
+
+void MakeDino(char Wall, char(*map)[ROWS]) // 2차원 배열, 맵에 존재하는 데이터 설정
+{
+	for (int i = 0; i < COLS; ++i)	// 세로 x 가로 빈 공간
+	{
+		for (int j = 0; j < 15; ++j)
+		{
+			map[i][j] = ' ';
+		}
+	}
+
+	for (int i = 0; i < COLS; ++i)
+	{
+		map[i][0] = Wall;
+		map[i][ROWS - 1] = Wall;
+	}
+	for (int i = 0; i < ROWS; ++i)
+	{
+		map[0][i] = Wall;
+		map[COLS - 1][i] = Wall;
+	}
+}
+
+int hurdle = 115;
+int dinoY = 15;
+
+void Crashing()
+{
+	// 공룡의 x,y좌표와 허들의 x,y좌표가 같으면 게임이 멈춘다.
+	if (dinoY == hurdleY && 0 == hurdle)
+	{
+		Clear();
+		printf("게임이 종료되었습니다. 4번을 눌려주세요");
+		
+	}
+}
 
 void GamePlay()
 {
@@ -21,50 +61,38 @@ void GamePlay()
 
 void makedino()
 {
-	GotoXY(0, dinoY);			printf("               @@@@@@@\n");
-	GotoXY(0, dinoY + 1);		printf("              @@@@@@@@@\n");
-	GotoXY(0, dinoY + 2);		printf("             @@@ @@@@@\n");
-	GotoXY(0, dinoY + 3);		printf("             @@@@@@@@@@@\n");
-	GotoXY(0, dinoY + 4);		printf("             @@@@@@\n");
-	GotoXY(0, dinoY + 5);		printf("    *       @@@@@@@@@@@\n");
-	GotoXY(0, dinoY + 6);		printf("    @      @@@@@@\n");
-	GotoXY(0, dinoY + 7);		printf("    @@    @@@@@@@@@@@@@@\n");
-	GotoXY(0, dinoY + 8);		printf("    @@@@ @@@@@@@@@@@   @\n");
-	GotoXY(0, dinoY + 9);		printf("     @@@@@@@@@@@@@@@\n");
-	GotoXY(0, dinoY + 10);		printf("      @@@@@@@@@@@@@@\n");
-	GotoXY(0, dinoY + 11);		printf("       @@@@@@@@@@@@\n");
-	GotoXY(0, dinoY + 12);		printf("        @@@@@ @@@@@\n");
-	GotoXY(0, dinoY + 13);		printf("         @@    @@\n");
-	GotoXY(0, dinoY + 14);		printf("         @@@@  @@@@\n");
+	char string1 = "               @@@@@@@   \n";
+	strcpy_s(DinoData[0], ROWS, string1);
+	char string2 = "              @@@@@@@@@  \n";
+	strcpy_s(DinoData[1], ROWS, string2);
+	char string3 = "             @@@ @@@@@   \n";
+	strcpy_s(DinoData[1], ROWS, string3);
+	char string4 = "             @@@@@@@@@@@ \n";
+	strcpy_s(DinoData[1], ROWS, string4);
+	char string5 = "             @@@@@@      \n";
+	strcpy_s(DinoData[1], ROWS, string5);
+	char string6 = "    *       @@@@@@@@@@@  \n";
+	strcpy_s(DinoData[1], ROWS, string6);
+	char string7 = "    @      @@@@@@        \n";
+	strcpy_s(DinoData[1], ROWS, string7);
+	char string8 = "    @@    @@@@@@@@@@@@@@ \n";
+	strcpy_s(DinoData[1], ROWS, string8);
+	char string9 = "    @@@@ @@@@@@@@@@@   @ \n";
+	strcpy_s(DinoData[1], ROWS, string9);
+	char string10 = "     @@@@@@@@@@@@@@@     \n";
+	strcpy_s(DinoData[1], ROWS, string10);
+	char string11 = "      @@@@@@@@@@@@@@     \n";
+	strcpy_s(DinoData[1], ROWS, string11);
+	char string12 = "       @@@@@@@@@@@@      \n";
+	strcpy_s(DinoData[1], ROWS, string12);
+	char string13 = "        @@@@@ @@@@@      \n";
+	strcpy_s(DinoData[1], ROWS, string13);
+	char string14 = "         @@    @@        \n";
+	strcpy_s(DinoData[1], ROWS, string14);
+	char string15 = "         @@@@  @@@@      \n";
+	strcpy_s(DinoData[1], ROWS, string15);
 }
 
-void makehurdle()
-{
-	GotoXY(hurdle, hurdleY);				printf("##\n");
-	GotoXY(hurdle, hurdleY + 1);			printf("##\n");
-	GotoXY(hurdle, hurdleY + 2);			printf("##\n");
-	GotoXY(hurdle, hurdleY + 3);			printf("##\n");
-	GotoXY(hurdle, hurdleY + 4);			printf("##\n");
-}
-
-void erasehredle()
-{
-	GotoXY(hurdle, hurdleY);				printf("  \n");
-	GotoXY(hurdle, hurdleY + 1);			printf("  \n");
-	GotoXY(hurdle, hurdleY + 2);			printf("  \n");
-	GotoXY(hurdle, hurdleY + 3);			printf("  \n");
-	GotoXY(hurdle, hurdleY + 4);			printf("  \n");
-}
-
-void Hurdle()
-{
-	hurdle--;
-	erasehredle();
-	makehurdle();
-
-	if (hurdle == 0)
-		hurdle = 145;
-}
 
 void ReadRecord(Running *running,int count)
 {
@@ -83,16 +111,10 @@ void ReadRecord(Running *running,int count)
 
 int main()
 {
-	SetConsoleSize(220, 40);
+	SetConsoleSize(120, 30);
 	SetConsoleCursorVisibility(0);
 
-	int playerInput = 0;
 	int score = 0;
-	bool hurdle = true;
-	bool Islive = true;
-
-	int hx[100] = { 0 };
-	//bool hurdle[100] = { true };
 	
 	GameStartMenu();
 
@@ -102,37 +124,21 @@ int main()
 		// 2. 기록보기
 		// 3. 게임종료
 
+		Clear();
+
+		GotoXY(3, 3);
+		printf("SCORE : %d", score);
+		score++;
+
+		// 공룡
+		makedino();
+
+
+		// 장애물
 		
 
-		scanf_s("%d", &playerInput);
-
-		if (playerInput == 1)
-		{
-			Clear();
-
-			GotoXY(3, 3);
-			printf("SCORE : %d", score);
-			score++;
-
-			// 공룡
-			makedino();
 
 
-			// 장애물
-			Hurdle();
-
-
-			//Sleep(20);
-			
-
-		}
-		if (playerInput == 2)
-		{
-			//ReadRecord();
-		}
-		if (playerInput == 3)
-		{
-			GameEnd();
-		}
+		Sleep(20);
 	}
 }

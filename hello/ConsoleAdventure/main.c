@@ -6,6 +6,7 @@
 
 #define ROWS 30	// 가로
 #define COLS 30	// 세로 collumn
+#define filename "Player Data.txt"
 
 char map[COLS][ROWS] = { 0 };		// 맵 안에있는 데이터
 // ROWS + 1 : 개행 문자 '\n' 더해준것.
@@ -37,7 +38,6 @@ void InputProcess(int* x, int* y)
 		*y+=1;
 	}
 }
-
 void InterActother(int* playerX, int* playerY, int* itemX, int* itemY, bool* item)
 {
 	// 플레이어와 아이템의 위치가 같은지 판별
@@ -46,13 +46,11 @@ void InterActother(int* playerX, int* playerY, int* itemX, int* itemY, bool* ite
 		*item = true;
 	}
 }
-
 void GoToTargetPos(int a, int b, char* s)
 {
 	GotoXY(a, b);
 	printf("%s",s);
 }
-
 void MakeMap(char Wall, char(*map)[ROWS]) // 2차원 배열, 맵에 존재하는 데이터 설정
 {
 	for (int i = 0; i < COLS; ++i)	// 세로 x 가로 빈 공간
@@ -86,30 +84,96 @@ void RenderMap()
 		}
 		mapString[mapIndex++] = '\n';
 	}
-	mapString[mapIndex] = '\0';	}
-
-
-
+	mapString[mapIndex] = '\0';	
+}
 void ShowGameRecord()
 {
 
 }
-
 void GameInfo()	// 게임의 정보를 출력하는 함수를 담당.
 {
 
 }
+void SelectStartMenu()
+{
+	printf("1.게임시작\n");
+	printf("\n");
+	printf("2.기록보기\n");
+	printf("\n");
+	printf("3.게임종료\n");
+}
 
+typedef struct PlayerData
+{
+	char name[30];	// 이름을 저장하기위한 배열
+	int score;		// 정수 형태로 점수를 저장한다.
+}PlayerData;
+
+void SavePlayerData(PlayerData* player, int totalCount)
+{
+	FILE* fp = fopen(filename, "w");
+	if (fp == NULL)
+	{
+		perror("파일 쓰기 실패!\n");
+	}
+
+	for (int i = 0; i < totalCount; ++i)
+	{
+		fprintf(fp, "%s %d\n", player[i].name, player[i].score);
+	}
+
+	fclose(fp);
+}
+
+void LoadPlayerData(PlayerData* player, int* totalcount)
+{
+	FILE* fp = fopen(filename, "r");
+	if (fp == NULL)
+	{
+		perror("파일 읽기 실패!\n");
+		return 0;
+	}
+
+	int count = 0;
+	char ch;
+
+	if (fgetc(fp) != EOF)
+	{
+		count = 1;
+	}
+
+	fseek(fp, 0, SEEK_SET);	 // fp가 가리키는 주소를 파일의 시작으로 이동
+
+	while (fgetc(fp) != EOF)
+	{
+		ch = fgetc(fp);		//
+		if (ch == '\n')
+		{
+			count++;
+		}
+	}
+
+	fseek(fp, 0, SEEK_SET);
+
+	*totalcount = count;
+
+	for (int i = 0; i < count; ++i)
+	{
+		fscanf_s(fp, "%s %d\n", (player + i)->name, 30, &(player + i)->score);
+	}
+
+	fclose(fp);
+}
 
 int main()
 {
+	PlayerData allPlayerData[10];
+	int totalcount = 0;
+	LoadPlayerData(allPlayerData, totalcount);
+	printf("%s %d", allPlayerData[0].name, allPlayerData[0].score);
+
 	SelectStartMenu();
-
-
 	
-	
-	
-
 	SetConsoleSize(50,50);
 	SetConsoleCursorVisibility(0); // 1이 되면 true, 0이 되면 false
 
