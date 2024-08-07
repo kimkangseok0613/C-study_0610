@@ -1,5 +1,7 @@
 #pragma once
 
-typedef struct Running {
-	int score;
-}Running;
+typedef struct Monster {
+	int name;
+	int region;
+	int grade;
+}Monster;

@@ -1,48 +1,43 @@
 ﻿  Function.c
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\Function.c(25,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\Function.c(26,2): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\Function.c(32,2): warning C4013: 'strcpy_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   main.c
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\Function.c(19,29): error C2146: 구문 오류: ')'이(가) 'monster' 식별자 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\Function.c(19,29): error C2061: 구문 오류: 식별자 'monster'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\Function.c(19,29): error C2059: 구문 오류: ';'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\Function.c(19,36): error C2059: 구문 오류: '['
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\Function.c(19,63): error C2059: 구문 오류: ')'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(15,33): error C2146: 구문 오류: ')'이(가) 'monster' 식별자 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(15,33): error C2061: 구문 오류: 식별자 'monster'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(15,33): error C2059: 구문 오류: ';'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(15,40): error C2059: 구문 오류: '['
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(15,57): error C2059: 구문 오류: ')'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(23,33): error C2146: 구문 오류: ')'이(가) 'monster' 식별자 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(23,33): error C2061: 구문 오류: 식별자 'monster'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(23,33): error C2059: 구문 오류: ';'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(23,40): error C2059: 구문 오류: '['
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(23,68): error C2059: 구문 오류: ')'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(40,32): error C2146: 구문 오류: ')'이(가) 'monster' 식별자 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(40,32): error C2061: 구문 오류: 식별자 'monster'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(40,32): error C2059: 구문 오류: ';'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(40,39): error C2059: 구문 오류: '['
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(40,61): error C2059: 구문 오류: ')'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(45,30): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(45,30): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(45,45): error C2059: 구문 오류: '형식'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(45,59): error C2059: 구문 오류: ')'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(61,29): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(61,29): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(61,44): error C2059: 구문 오류: '형식'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(61,59): error C2059: 구문 오류: ')'
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(104,2): error C2065: 'Monster': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(104,10): error C2146: 구문 오류: ';'이(가) 'monsterGroup' 식별자 앞에 없습니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(104,10): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(104,22): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(112,2): warning C4013: 'LoadMonsterData'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(112,18): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(132,4): warning C4013: 'AddMonsterInfo'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(132,19): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(137,4): warning C4013: 'SearchMosterByName'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(137,23): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(142,4): warning C4013: 'ShowAllMonsterData'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(142,23): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(147,4): warning C4013: 'DeleteMonsterName'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(147,22): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(152,4): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(163,2): warning C4013: 'PrintMonsterList'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Documents\GitHub\C-study_0610\hello\MonsteDataManager\main.c(163,19): error C2065: 'monsterGroup': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(19,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(19,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(19,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(19,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(19,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(19,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 4과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(31,7): warning C4013: 'Compare'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(34,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(34,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(34,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(34,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(34,11): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(34,11): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(55,15): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(55,15): warning C4313: 'fprintf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(55,15): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(55,15): warning C4313: 'fprintf': 서식 문자열의 '%s'이(가) int' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(55,15): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(55,15): warning C4313: 'fprintf': 서식 문자열의 '%s'이(가) int' 형식의 인수 3과(와) 충돌합니다.
   코드를 생성하고 있습니다...
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(94,16): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(94,16):
+  이 인수는 변환 지정자에서 사용됩니다.
+  
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(94,16): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
+  C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(94,16):
+  이 인수는 변환 지정자에서 사용됩니다.
+  
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(94,16): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 5의 형식이 'int'입니다.
+  C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(94,16):
+  이 인수는 변환 지정자에서 사용됩니다.
+  
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(132,4): warning C4013: 'AddMonsterInfo'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(152,4): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(106,7): warning C4101: 'monster_nmae' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(108,7): warning C4101: 'monster_grade' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\C-study_0610\hello\MonsteDataManager\main.c(107,7): warning C4101: 'monster_region' :참조되지 않은 지역 변수입니다.
+  MonsteDataManager.vcxproj -> C:\Users\Administrator\Desktop\C-study_0610\hello\x64\Debug\MonsteDataManager.exe
